@@ -1,5 +1,6 @@
 package web.actions;
 
+import log.Log;
 import org.takes.Response;
 import org.takes.facets.fork.RqRegex;
 import org.takes.facets.fork.TkRegex;
@@ -20,6 +21,12 @@ public class ConsultaSat extends SatAction implements TkRegex {
 
         Sat sat = new Sat(device);
 
-        return ApiResponse.success(sat.consultar());
+        Log.logger.info("Iniciando consulta");
+
+        String response = sat.consultar();
+
+        Log.logger.info("Resposta: " + response);
+
+        return ApiResponse.success(response);
     }
 }
