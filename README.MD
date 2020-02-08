@@ -1,5 +1,5 @@
 
-Protótipo para demonstrar como fazer a intermediação entre a comunicação entre uma aplicação web e um dispositivo SAT. 
+Protótipo para demonstrar como fazer a intermediação entre a comunicação entre uma aplicação web e um dispositivo local, utilizando como exemplo um dispositivo SAT. 
 
 # Aplicação WEB
 
