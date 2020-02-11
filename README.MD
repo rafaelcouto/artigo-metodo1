@@ -1,6 +1,11 @@
 
 Protótipo para demonstrar como fazer a intermediação entre a comunicação entre uma aplicação web e um dispositivo local, utilizando como exemplo um dispositivo SAT. 
 
+# Fluxo
+
+1) A aplicação web envia uma mensagem para o webserver local através do protocolo HTTP;
+3) A webserver se comunica com o dispositivo SAT através da DLL;
+
 # Aplicação WEB
 
 A aplicação web foi desenvolvida utilizando Vue.JS. 
